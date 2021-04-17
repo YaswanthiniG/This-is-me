@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Introduction of me</title>
+		<link rel="stylesheet" href="file1.css">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&family=Raleway:wght@100&family=Roboto+Slab:wght@100;400&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
+				
+		<!-- CSS Styles -->
+		
+		<style>
+		body {
+			height:650px;
+			background-image: linear-gradient(to bottom right,#e768fc,#a6e259);
+			color: #000000;
+			//display:none;
+			
+		}
+		.container{
+			width:900px;
+			height:650px;
+			margin-right:auto;
+			margin-left:auto;
+			margin-top:150px;;
+			margin-bottom:auto;
+		  }
+		h1,p{
+			font-family: 'Raleway', sans-serif;
+		}
+		p{
+		  line-height:25px;
+		}
+		</style>
+		<!-- Ended CSS Styles -->
+    </head>
+    <body>
+	<div id="collapse1">
+	<div class="container">
+	 <h1>Hi, I'm Yash</h1> <br><br>
+	 <p><b> My full name is Yaswanthini Goriparthi. I'm dedicated and self motivated individual who enjoy to code. Interested in creating responsive web pages. I'm currently learning web technologies such as Angular Js, JavaScript, Jquery, BootStrap, HTML, CSS.. I'm looking to collaborate and leverage my experience building responsive and scalable web applications to solve interesting problems that delight end users. <a href="#" onclick="Full_story()">more</a> 
+	 <br><br>Get in touch with my mail Id yaswanthini9657@gmail.com </b> </p>
+	</div>
+	</div>
+	<!-- Script files -->
+	<script>
+		function Full_story(){
+			document.getElementById("collapse1").innerHTML="My full name is Yaswanthini Goriparthi.. I'm dedicated and self motivated individual who enjoy to code. I have an experienece of 2.6 years as a System Engineer in TCS and 1 year of relevant experience in Frontend technologies. Interested in creating responsive web pages.I'm currently learning web technologies such as Angular Js, JavaScript, Jquery, BootStrap, HTML, CSS.. I'm looking to collaborate and leverage my experience building responsive and scalable web applications to solve interesting problems that delight end users." ;
+			document.getElementById("collapse1").style.fontFamily="'Raleway', sans-serif";
+			document.getElementById("collapse1").style.width = "900px";
+			document.getElementById("collapse1").style.height ="650px";
+			document.getElementById("collapse1").style.margin ="150px auto auto auto";
+			document.getElementById("collapse1").style.lineHeight ="25px";
+			document.getElementById("collapse1").style.fontWeight ="900";
+		}
+	</script>
+    </body>
+
+</html>
